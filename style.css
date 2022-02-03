@@ -6,6 +6,18 @@
 }
 
 /* funzioni ripetute */
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: inline;
+    vertical-align: middle;
+}
 
 .f-left{
     float: left;
@@ -46,19 +58,27 @@
     vertical-align: middle;
 }
 
-/* general */
-ul{
-    display: inline;
-    vertical-align: middle;
+.border{
+    border: 1px solid rgb(202, 200, 200);
 }
 
+.fw-bold{
+    font-weight: bold;
+}
+
+/* for header */
 header ul li{
     display: inline;
-    list-style: none;
-    padding: 20px;
+    padding: 0 20px;
     vertical-align: middle;
     font-size: 1.2em;
     font-weight: bold;
+}
+
+header ul li:hover{
+    background-color: rgb(230, 221, 221);
+    transition: 200ms;
+    padding: 10px 20px;
 }
 
 header nav{
@@ -77,9 +97,11 @@ header a{
     font-weight: bold;
 }
 
-a{
-    text-decoration: none;
+.brand-btn:hover{
+    background-color: rgb(61, 61, 255);
+    transition: 200ms;
 }
+
 
 .end-footer{
     background-color: rgb(169, 197, 250);
@@ -91,7 +113,7 @@ a{
     margin-bottom: 50px;
 }
 
-.end-footer img{
+.end-footer .jumbot{
     width: 50%;
     position: absolute;
     margin-left: 100px;
@@ -106,4 +128,28 @@ a{
     display: block;
     margin-top: 20px;
     font-weight: bold;
+}
+
+.ar-down{
+    width: 10%;
+    margin-top: 50px;
+}
+
+/* for main */
+.container{
+    margin: 15%;
+}
+
+.container h1{
+    font-size: 2.7em;
+    margin-bottom: 50px;
+}
+
+main section{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+#user{
+    border-bottom: 1px solid rgb(202, 200, 200);
 }
