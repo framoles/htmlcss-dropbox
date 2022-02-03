@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* funzioni ripetute */
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wh100{
+    width: 100%;
+}
+
+.wh40{
+    width: 40%;
+}
+
+.wh30{
+    width: 30%;
+}
+
+.wh20{
+    width: 20%;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.ver-al
+{
+    vertical-align: middle;
+}
+
+/* general */
+ul{
+    display: inline;
+    vertical-align: middle;
+}
+
+header ul li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    vertical-align: middle;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header nav{
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+header a{
+    color: rgb(27, 26, 26);
+}
+
+.brand-btn{
+    background-color: rgb(34, 34, 255);
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.end-footer{
+    background-color: rgb(169, 197, 250);
+    padding: 130px;
+}
+
+.end-footer h1{
+    font-size: 6em;
+    margin-bottom: 50px;
+}
+
+.end-footer img{
+    width: 50%;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.end-footer p{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.end-footer span{
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
