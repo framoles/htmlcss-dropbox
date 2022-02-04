@@ -37,6 +37,14 @@ ul{
     width: 100%;
 }
 
+.wh70{
+    width: 70%;
+}
+
+.wh50{
+    width: 50%;
+}
+
 .wh40{
     width: 40%;
 }
@@ -49,8 +57,8 @@ ul{
     width: 20%;
 }
 
-.bg-black{
-    background-color: black;
+.wh15{
+    width: 15%;
 }
 
 .ver-al
@@ -66,7 +74,17 @@ ul{
     font-weight: bold;
 }
 
+.bg-lblu{
+    background-color: lightblue;
+}
+
 /* for header */
+.fixed{
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+}
+
 header ul li{
     display: inline;
     padding: 0 20px;
@@ -91,14 +109,14 @@ header a{
 }
 
 .brand-btn{
-    background-color: rgb(34, 34, 255);
+    background-color: rgb(0, 132, 255);
     padding: 10px 15px;
     color: white;
     font-weight: bold;
 }
 
 .brand-btn:hover{
-    background-color: rgb(61, 61, 255);
+    background-color: rgb(92, 168, 240);
     transition: 200ms;
 }
 
@@ -136,8 +154,10 @@ header a{
 }
 
 /* for main */
+
+/* first part */
 .container{
-    margin: 15%;
+    margin: 15% 15% 3% 15%;
 }
 
 .container h1{
@@ -147,9 +167,276 @@ header a{
 
 main section{
     margin-top: 30px;
+}
+
+.user{
+    border-bottom: 1px solid rgb(202, 200, 200);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sect-container{
+    margin: 30px 20px 80px;
+}
+
+main section span{
+    display: block;
+}
+
+main section img{
+    width: 15px;
+}
+
+.sec-margin{
+    margin-top: 60px;
+}
+
+.sec-one{
+    line-height: 20px;
+}
+
+.sec-one h2{
+    margin-bottom: 20px;
+}
+
+.lb-time{
+    font-size: 0.7em;
+    color: grey;
+}
+
+.sec-two{
+    font-size: 0.9em;
+    margin-bottom: 70px;
+}
+
+.sec-two li{
+    margin-bottom: 10%;
+}
+
+.stbtn{
+    padding: 10px 40px;
+}
+
+.sec-three span{
+    margin-top: 30px;
+}
+
+.buy-btn{
+    color: rgb(0, 132, 255);
+}
+
+.sec-four{
+    line-height: 40px;
+}
+
+.sec-four h3{
+    font-size: 1em;
+}
+.sec-four ul li{
+    font-size: 0.9em;
+}
+
+.check{
+    color: rgb(0, 132, 255);
+}
+
+.whsec{
+    width: calc(100% / 3 - 60px);
+}
+
+.wh-mar{
+    margin-right: 90px;
+}
+
+/* second part */
+
+.team{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.teamh{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.teamh img{
+    width: 15px;
+}
+
+.teamm{
+    padding: 25px;
+}
+
+.teamm h3{
+    margin: 20px 0 40px;
+}
+
+.partner{
+    padding: 50px;
+}
+
+.partner h1{
+    font-size: 2em;
+}
+
+.partner p{
+    margin-bottom: 50px;
     line-height: 30px;
 }
 
-#user{
-    border-bottom: 1px solid rgb(202, 200, 200);
+.partner a{
+    border: 1px solid black;
+    padding: 10px 20px;
+    color: black;
+}
+
+.partner a:hover{
+    background-color: rgb(168, 168, 168);
+    transition: 200ms;
+}
+
+#h1mar{
+    margin-top: 100px;
+}
+
+.card{
+    width: calc(100% / 3 - 100px);
+    float: left;    
+}
+
+.card:nth-child(2), .card:nth-child(5){
+    margin: 0 150px;
+}
+
+.card:nth-child(1), .card:nth-child(2), .card:nth-child(3){
+    margin-bottom: 100px;
+}
+
+.mh1end{
+    margin-top: 250px;
+}
+
+.sezd{
+    width: 25%;
+    height: 50vh;
+    display: inline-block;
+}
+
+.sezda{
+    width: 50%;
+    height: 50vh;
+    display: inline-block;
+    padding: 50px;
+}
+
+.sezda p{
+    margin: 50px 0 30px;
+}
+
+.squarea, .squareb{
+    width: calc(100% / 2);
+    height: calc(100% / 2);   
+    float: left;
+}
+
+.squarea img, .squareb img{
+    width: 50%;
+    height: 50%;
+    filter: invert(100%) sepia(100%) saturate(100%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+.sezda img{
+    width: 200px;  
+}
+
+.squarea:nth-child(1){
+    background-color: rgb(153, 204, 153);  
+}
+.squarea:nth-child(2){
+    background-color: rgb(56, 29, 38);
+}
+.squarea:nth-child(3){
+    background-color: rgb(48, 160, 224);
+}
+.squarea:nth-child(4){
+    background-color: red;
+}
+
+.squareb:nth-child(1){
+    background-color: rgb(153, 14, 14);
+}
+.squareb:nth-child(2){
+    background-color: rgb(154, 192, 204);
+}
+.squareb:nth-child(3){
+    background-color: rgb(27, 27, 143);
+}
+.squareb:nth-child(4){
+    background-color: yellow;
+}
+
+.test{
+    background-color: lightblue;
+    padding: 5% 15%;
+    margin-top: -5px;
+}
+
+.test h1{
+    font-size: 3em;
+}
+
+.test a{
+    line-height: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.faq{
+    padding: 5% 15%;
+}
+
+.faq h1{
+    margin-bottom: 3%;
+}
+
+.quest{
+    border-top: 1px solid grey;
+    padding: 2% 0;
+    
+}
+
+.quest:nth-child(5){
+    border-bottom: 1px solid grey;
+}
+
+.quest p{
+    display: inline;
+}
+
+.quest span{
+    float: right;
+    width: 3%;
+}
+
+.quest:hover , .quest p::after{
+    content: "il mio cammino";
+}
+
+/* for footer */
+
+footer{
+    background-color: black;
+    height: 50vh;
+}
+
+footer li, footer a{
+    color: white;
 }
