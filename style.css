@@ -121,28 +121,28 @@ header a{
 }
 
 
-.end-footer{
+.end-header{
     background-color: rgb(169, 197, 250);
     padding: 130px;
 }
 
-.end-footer h1{
+.end-header h1{
     font-size: 6em;
     margin-bottom: 50px;
 }
 
-.end-footer .jumbot{
+.end-header .jumbot{
     width: 50%;
     position: absolute;
     margin-left: 100px;
 }
 
-.end-footer p{
+.end-header p{
     font-weight: bold;
     margin-bottom: 40px;
 }
 
-.end-footer span{
+.end-header span{
     display: block;
     margin-top: 20px;
     font-weight: bold;
@@ -175,9 +175,7 @@ main section{
     padding: 10px 0;
 }
 
-.sect-container{
-    margin: 30px 20px 80px;
-}
+
 
 main section span{
     display: block;
@@ -189,6 +187,19 @@ main section img{
 
 .sec-margin{
     margin-top: 60px;
+}
+
+
+.whsec{
+    width: calc(100% / 3 - 60px);
+}
+
+.wh-mar{
+    margin-right: 90px;
+}
+
+.sect-container{
+    padding: 12%;
 }
 
 .sec-one{
@@ -214,7 +225,7 @@ main section img{
 }
 
 .stbtn{
-    padding: 10px 40px;
+    padding: 3% 15%;
 }
 
 .sec-three span{
@@ -223,10 +234,6 @@ main section img{
 
 .buy-btn{
     color: rgb(0, 132, 255);
-}
-
-.sec-four{
-    line-height: 40px;
 }
 
 .sec-four h3{
@@ -240,13 +247,6 @@ main section img{
     color: rgb(0, 132, 255);
 }
 
-.whsec{
-    width: calc(100% / 3 - 60px);
-}
-
-.wh-mar{
-    margin-right: 90px;
-}
 
 /* second part */
 
@@ -344,7 +344,7 @@ main section img{
 .squarea img, .squareb img{
     width: 50%;
     height: 50%;
-    filter: invert(100%) sepia(100%) saturate(100%);
+    filter: invert(1);
     position: relative;
     top: 50%;
     left: 50%;
@@ -410,14 +410,14 @@ main section img{
 .quest{
     border-top: 1px solid grey;
     padding: 2% 0;
-    
+    cursor: pointer;
 }
 
 .quest:nth-child(5){
     border-bottom: 1px solid grey;
 }
 
-.quest p{
+.quest p:nth-child(1){
     display: inline;
 }
 
@@ -426,8 +426,19 @@ main section img{
     width: 3%;
 }
 
-.quest:hover , .quest p::after{
-    content: "il mio cammino";
+
+
+.answer{
+    display: none;
+}
+
+.quest:hover > .answer{
+    display: block;
+    margin-top: 30px;
+}
+
+.quest:hover > .q-row{
+    transform:rotate(180deg);
 }
 
 /* for footer */
