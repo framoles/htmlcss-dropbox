@@ -241,10 +241,12 @@ main section img{
 }
 .sec-four ul li{
     font-size: 0.9em;
+    margin: 10% 0;
 }
 
-.check{
+.sec-four i{
     color: rgb(0, 132, 255);
+    
 }
 
 
@@ -450,4 +452,36 @@ footer{
 
 footer li, footer a{
     color: white;
+    margin-bottom: 5px;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 10%;
+    font-size: 1.5em;
+}
+
+.linkcontainer{
+    margin: 0 15%;
+}
+
+.linkgroup{
+    margin-top: 5%;
+    display: inline-block;
+    width: calc(100% / 5 - 5px);
+}
+
+.language select{
+    width: 7%;  
+    border: none;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 70%;
+    left: 15%;
+    border-top: 1px solid white;
+}
+
+.language{
+    height: 40%;    
 }
