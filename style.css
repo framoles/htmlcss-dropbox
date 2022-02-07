@@ -353,6 +353,9 @@ main section img{
     transform: translate(-50% , -50%);
 }
 
+#padflo{
+    padding: 20% 0;
+}
 
 .sezda img{
     width: 200px;  
@@ -399,6 +402,11 @@ main section img{
     background-color: white;
     text-align: center;
     color: black;
+}
+
+.test a:hover{
+    background-color: rgba(31, 30, 30, 0.726);
+    color: white;
 }
 
 .faq{
